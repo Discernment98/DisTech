@@ -182,7 +182,7 @@ section .title::after{
     font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -209,6 +209,11 @@ section .title::after{
 .home .home-content a:hover{
     color: #F6E6F4;
     background: #9D7099;
+}
+.banner_img img{
+     width: 400px;
+     border-radius: 100px; 
+     padding-right: 80px;
 }
 
 /* about section styling */
@@ -295,7 +300,7 @@ section .title::after{
     color: #000;
 }
 .services .serv-content .card .text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -322,8 +327,7 @@ section .title::after{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
+    padding: 10px 16px;
     border-radius: 6px;
     border: 2px solid #9D7099;
     transition: all 0.3s ease;
@@ -348,7 +352,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: #9D7099;
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -589,7 +593,7 @@ footer span a:hover{
         padding: 0 23px;
     }
     .home .home-content .text-2{
-        font-size: 60px;
+        font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 32px;
